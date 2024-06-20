@@ -8,6 +8,6 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.'
+          python-version: '3.9'
       - name: Run Python script
         run: python job.py
