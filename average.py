@@ -1,4 +1,4 @@
-def calculate_average():
-    input1 = [1, 2, 3, 4, 5]
-    result = sum(input1) / len(input1)
+def calculate_average(numbers):
+    result = sum(numbers) / len(numbers)
+    print(result)
     return result
