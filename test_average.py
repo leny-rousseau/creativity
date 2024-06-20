@@ -13,7 +13,7 @@ def test_average():
     assert result == 2
     print(f"Average of {input2} is {result}")
 
-    input2 = [10, 100, 1000]
-    result = average(input2)
-    print(f"Average of {input1} is {result}")
+    input3 = [10, 100, 1000]
+    result = average(input3)
+    print(f"Average of {input3} is {result}")
     print(result(370))
