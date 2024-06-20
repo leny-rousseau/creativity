@@ -10,4 +10,4 @@ jobs:
         with:
           python-version: '3.9'
       - name: Run Python script
-        run: python job.py
+        run: python average.py
