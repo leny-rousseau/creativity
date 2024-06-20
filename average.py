@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-    if not numbers:
-        raise ValueError("The list is empty.")
-    return sum(numbers) / len(numbers)
+def calculate_average():
+    input1 = [1, 2, 3, 4, 5]
+    result = sum(input1) / len(input1)
+    return result
